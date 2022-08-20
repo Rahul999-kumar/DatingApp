@@ -1,0 +1,15 @@
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\bin\Debug\net5.0\DotnetCore_Database.deps.json
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\bin\Debug\net5.0\DotnetCore_Database.runtimeconfig.json
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\bin\Debug\net5.0\DotnetCore_Database.runtimeconfig.dev.json
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\bin\Debug\net5.0\DotnetCore_Database.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\bin\Debug\net5.0\DotnetCore_Database.pdb
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.csproj.AssemblyReference.cache
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.AssemblyInfoInputs.cache
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.AssemblyInfo.cs
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.csproj.CoreCompileInputs.cache
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\refint\DotnetCore_Database.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.pdb
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\DotnetCore_Database.genruntimeconfig.cache
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_Database\obj\Debug\net5.0\ref\DotnetCore_Database.dll
