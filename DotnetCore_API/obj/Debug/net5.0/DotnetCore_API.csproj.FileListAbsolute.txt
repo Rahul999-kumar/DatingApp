@@ -55,3 +55,13 @@ D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\obj\Debug\net5.0\Dotne
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\obj\Debug\net5.0\ref\DotnetCore_API.dll
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Humanizer.dll
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotenetCore_BusinessRepositories.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotnetCore_BusinessModels.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotnetCore_IRepositories.dll
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotenetCore_BusinessRepositories.pdb
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotnetCore_BusinessModels.pdb
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotnetCore_IRepositories.pdb

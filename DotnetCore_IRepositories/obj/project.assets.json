@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "DotnetCore_BusinessModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DotnetCore_BusinessModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DotnetCore_BusinessModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DotnetCore_BusinessModels/1.0.0": {
+      "type": "project",
+      "path": "../DotnetCore_BusinessModels/DotnetCore_BusinessModels.csproj",
+      "msbuildProject": "../DotnetCore_BusinessModels/DotnetCore_BusinessModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "DotnetCore_BusinessModels >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rahul\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\LearningProjects_2022\\.NetCore\\DotnetCore_BusinessModels\\DotnetCore_BusinessModels.csproj": {
+              "projectPath": "D:\\Projects\\LearningProjects_2022\\.NetCore\\DotnetCore_BusinessModels\\DotnetCore_BusinessModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

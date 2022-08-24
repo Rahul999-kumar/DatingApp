@@ -12,14 +12,20 @@ using System.Linq;
 using System.Threading.Tasks;
 using DotnetCore_Database;
 using Microsoft.EntityFrameworkCore;
+using DotenetCore_BusinessRepositories;
+using DotnetCore_IRepositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace DotnetCore_API
 {
     public class Startup
     {
+        private readonly IConfiguration _config;
         public Startup(IConfiguration configuration)
         {
-            Configuration = configuration;
+            _config = configuration;
         }
 
         public IConfiguration Configuration { get; }
@@ -31,6 +37,19 @@ namespace DotnetCore_API
                 options => options.UseSqlServer(Configuration.GetConnectionString("DatingAppDB"))
             );
             services.AddControllers();
+            services.AddCors();
+            services.AddScoped<ITokenService, TokenService>();
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            .AddJwtBearer(options =>
+             {
+                 options.TokenValidationParameters = new TokenValidationParameters
+                 {
+                     ValidateIssuerSigningKey = true,
+                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["TokenKey"])),
+                     ValidateIssuer = false,
+                     ValidateAudience = false,
+                 };
+             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +63,8 @@ namespace DotnetCore_API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors(x=> x.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200"));
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
