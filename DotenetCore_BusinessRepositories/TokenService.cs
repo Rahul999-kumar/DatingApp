@@ -1,4 +1,5 @@
 ﻿using DotnetCore_BusinessModels;
+using DotnetCore_Database.DbEntities;
 using DotnetCore_IRepositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -19,7 +20,7 @@ namespace DotenetCore_BusinessRepositories
         {
             _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
         }
-        public string CreateToken(UserDTO user)
+        public string CreateToken(Users user)
         {
             var claims = new List<Claim>
             {

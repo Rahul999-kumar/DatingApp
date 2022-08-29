@@ -1483,7 +1483,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "DotnetCore_BusinessModels": "1.0.0"
+          "DotnetCore_BusinessModels": "1.0.0",
+          "DotnetCore_Database": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DotnetCore_IRepositories.dll": {}

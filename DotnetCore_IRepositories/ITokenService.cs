@@ -1,4 +1,5 @@
 ﻿using DotnetCore_BusinessModels;
+using DotnetCore_Database.DbEntities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace DotnetCore_IRepositories
 {
     public interface ITokenService
     {
-        string CreateToken(UserDTO user);
+        string CreateToken(Users user);
     }
 }

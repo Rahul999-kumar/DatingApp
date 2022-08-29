@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DotnetCore_BusinessModels\DotnetCore_BusinessModels.csproj" />
+    <ProjectReference Include="..\DotnetCore_Database\DotnetCore_Database.csproj" />
   </ItemGroup>
 
 </Project>

@@ -323,6 +323,9 @@
             "projectReferences": {
               "D:\\Projects\\LearningProjects_2022\\.NetCore\\DotnetCore_BusinessModels\\DotnetCore_BusinessModels.csproj": {
                 "projectPath": "D:\\Projects\\LearningProjects_2022\\.NetCore\\DotnetCore_BusinessModels\\DotnetCore_BusinessModels.csproj"
+              },
+              "D:\\Projects\\LearningProjects_2022\\.NetCore\\DotnetCore_Database\\DotnetCore_Database.csproj": {
+                "projectPath": "D:\\Projects\\LearningProjects_2022\\.NetCore\\DotnetCore_Database\\DotnetCore_Database.csproj"
               }
             }
           }

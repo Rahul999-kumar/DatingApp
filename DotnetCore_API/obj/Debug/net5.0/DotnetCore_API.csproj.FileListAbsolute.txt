@@ -18,7 +18,6 @@ D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Micro
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -65,3 +64,4 @@ D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Dotne
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotenetCore_BusinessRepositories.pdb
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotnetCore_BusinessModels.pdb
 D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\DotnetCore_IRepositories.pdb
+D:\Projects\LearningProjects_2022\.NetCore\DotnetCore_API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

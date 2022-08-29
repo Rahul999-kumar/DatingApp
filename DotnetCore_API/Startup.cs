@@ -17,6 +17,7 @@ using DotnetCore_IRepositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using DotnetCore_API.Exception;
 
 namespace DotnetCore_API
 {
@@ -34,7 +35,7 @@ namespace DotnetCore_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<DbConnection>(
-                options => options.UseSqlServer(Configuration.GetConnectionString("DatingAppDB"))
+                options => options.UseSqlServer(_config.GetConnectionString("DatingAppDB"))
             );
             services.AddControllers();
             services.AddCors();
@@ -55,11 +56,11 @@ namespace DotnetCore_API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
-
+            //if (env.IsDevelopment())
+            //{
+            //    app.UseDeveloperExceptionPage();
+            //}
+            app.UseMiddleware<ExceptionMiddleware>();
             app.UseHttpsRedirection();
 
             app.UseRouting();
